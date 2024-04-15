@@ -1,0 +1,60 @@
+/*Contains CSS for About page unique elements*/
+
+/*CSS for text*/
+#about-text{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 60vw;
+    margin-left: 20vw;
+}
+
+#about-text h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin : 0 80px;
+    margin-bottom: 50px;
+}
+
+
+
+.description-text{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.subheading{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.aboutus{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin : 0 80px;
+  margin-bottom: 50px;
+}
+
+.aboutpara{
+  max-width: 50%;
+  
+}
+.aboutusImg{
+  
+  max-width: 800px;
+  max-height:500px;
+  object-fit: cover;
+  border-radius: 30px
+}
